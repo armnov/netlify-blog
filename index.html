@@ -3,8 +3,13 @@
     <head>
         <title>armnov - simplify the life</title>
     </head>
-    <body>
+    <body onload="load()">
         <h1>Stay hungry, stay foolish</h1>
-        <p>Coming soon -</p>
+        <div id="content">loading...</div>
     </body>
+    <script>
+        function load() {
+            document.getElementById("content").innerHTML = "<p>Coming soon...</p>"
+        }
+    </script>
 </html>
